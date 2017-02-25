@@ -4,23 +4,33 @@
 
 blockquote {
 
-	font-style:italic;
+    font-family: 'Gotham Rounded Light', sans-serif;
 
-	&::before {
+	&::before,
+    &::after {
 		position:absolute;
-		margin:-0.15em 0 0 -0.43em;
-		color:#CCC;
+		color:currentColor;
 		line-height:1;
 		font-size:8em;
+        font-family: 'Gotham Rounded Light', sans-serif;
+        font-weight:bold;
 		content:'\201C';
+        top: 50%;
+        transform: translate(0, -50%);
 		}
+    &::before {
+        left: 0;
+    }
+    &::after {
+        right: 0;
+    }
 
 	// Author
 
 	& + figcaption {
 		margin:-1em 0 1em;
-		font-style:italic;
-		font-weight:bold;
+        font-family: 'Lora';
+        text-align: right;
 		}
 
 	}
