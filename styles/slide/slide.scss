@@ -22,13 +22,14 @@
 
 	&::after {
 		position:absolute;
-		top:0;
-		right:100px;
+		bottom:0;
+		right:30px;
 		padding-top:15px;
 		width:50px;
 		height:100px;
-		background:url(../images/ribbon.svg) no-repeat;
-		color:#FFF;
+        font-family: 'Gotham Rounded Light', sans-serif;
+        font-size: 20px;
+		color:$black;
 		counter-increment:slide;
 		content:counter(slide);
 		text-align:center;
