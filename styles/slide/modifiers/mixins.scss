@@ -1,0 +1,26 @@
+// ------------------------------------------------------------------
+// Common used mixins
+// ------------------------------------------------------------------
+
+@mixin cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+
+    padding: 0 50px;
+
+    h2 {
+      color: #FFF;
+      margin-bottom: 0;
+    }
+}
+
+@mixin color-slide {
+    background-image: url(../../images/logo/fill-white.svg);
+
+    h2 {
+        font-size: 44px;
+    }
+}

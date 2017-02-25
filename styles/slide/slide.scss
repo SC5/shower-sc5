@@ -16,7 +16,7 @@
 	width:$width;
 	height:$height;
 	font-size:25px;
-    background: url(../images/logo/fill-red.svg);
+    background-image: url(../images/logo/fill-red.svg);
     background-size: 55px 45px;
     background-repeat: no-repeat;
     background-position: bottom 25px left 30px;
@@ -51,8 +51,10 @@
 	// Modifiers
 
 	@import
+		'modifiers/mixins',
 		'modifiers/grid',
 		'modifiers/black',
+		'modifiers/red',
 		'modifiers/white';
 
 	// Elements
