@@ -11,6 +11,10 @@
 
     padding: 0 50px;
 
+	&::after {
+		visibility:hidden;
+		}
+
     h2 {
       color: #FFF;
       margin-bottom: 0;

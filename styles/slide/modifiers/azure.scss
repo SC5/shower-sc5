@@ -2,11 +2,13 @@
 // Red
 // ------------------------------------------------------------------
 
-&--red {
+&--azure {
 
     @include cover;
     @include color-slide;
 
-	background-color:$red;
+	background-color:$azure;
+
+
 
 	}
