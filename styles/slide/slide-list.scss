@@ -25,6 +25,9 @@
 	border-radius:2px;
 	box-shadow:0 20px 50px rgba(black, 0.3);
 
+    // Not to show
+    background-image: none;
+
 	&:hover {
 		box-shadow:
 			0 0 0 20px rgba(black, 0.1),
