@@ -19,6 +19,15 @@
       color: #FFF;
       margin-bottom: 0;
     }
+
+    svg {
+        display: block;
+        margin: 0 auto;
+    }
+
+    svg path {
+        fill: #FFF;
+    }
 }
 
 @mixin color-slide {
@@ -26,5 +35,6 @@
 
     h2 {
         font-size: 44px;
+        margin: 0.5em 0;
     }
 }
