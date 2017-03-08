@@ -2,10 +2,8 @@
 // Red
 // ------------------------------------------------------------------
 
-&--red {
+&--shout {
 
-    @include color-slide;
-
-	background-color:$red;
+    @include cover;
 
 	}
