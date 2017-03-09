@@ -2,14 +2,9 @@
 // Quote
 // ------------------------------------------------------------------
 
-blockquote {
-
-    font-family: 'Gotham Rounded Light', sans-serif;
-
-	&::before,
-    &::after {
+@mixin quoteShape {
 		position:absolute;
-		color:currentColor;
+        color:$grey;
 		line-height:1;
 		font-size:8em;
         font-family: 'Gotham Rounded Light', sans-serif;
@@ -17,12 +12,22 @@ blockquote {
 		content:'\201C';
         top: 50%;
         transform: translate(0, -50%);
+}
+
+blockquote {
+
+    font-family: 'Gotham Rounded Light', sans-serif;
+    position: relative;
+
+	&::before,
+    &::after {
+        @include quoteShape;
 		}
     &::before {
-        left: 0;
+        left: -0.5em;
     }
     &::after {
-        right: 0;
+        right: -0.5em;
     }
 
 	// Author
@@ -30,7 +35,29 @@ blockquote {
 	& + figcaption {
 		margin:-1em 0 1em;
         font-family: 'Lora';
+        font-size: 0.85em;
         text-align: right;
-		}
-
 	}
+
+}
+
+figure {
+    position: relative;
+    blockquote {
+        &::before,
+        &::after {
+            content: '';
+        }
+    }
+
+    &::before,
+    &::after {
+        @include quoteShape;
+    }
+    &::before {
+        left: -0.5em;
+    }
+    &::after {
+        right: -0.5em;
+    }
+}

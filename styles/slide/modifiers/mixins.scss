@@ -40,4 +40,14 @@
     svg path {
         fill: #FFF;
     }
+
+    figure,
+    blockquote {
+        &::before,
+        &::after
+        {
+            color: currentColor;
+        }
+    }
+
 }
