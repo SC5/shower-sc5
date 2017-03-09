@@ -16,7 +16,7 @@ table {
 
     th, td {
         padding: 0 0.5em;
-        border-bottom: 1px solid $grey;
+        border-bottom: 1px solid $grey-line;
     }
 
     th {
@@ -36,13 +36,18 @@ table {
 
 	&.striped {
 		tr {
+            background-color: $grey-line;
 			&:nth-child(even) {
 				background:$grey-back;
-				}
+			}
 			> * {
 				background-image:none;
 				}
 			}
-		}
+        th, td {
+            border-bottom: none;
+        }
 
 	}
+
+}
