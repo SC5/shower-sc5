@@ -13,6 +13,14 @@ h3 {
 	font:1.25em/1 'Gotham Rounded Light', sans-serif;
     text-transform:uppercase;
     margin-bottom: 0.5em;
+
+    &.subtitle {
+        font:22px/1.4 'Lora', sans-serif;
+        font-style: italic;
+        text-transform:none;
+        position: absolute;
+        top: calc(70px - 1.25em);
+    }
 }
 p {
 	margin-bottom:1em;
