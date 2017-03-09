@@ -8,6 +8,12 @@ h2 {
 	font:50px/1 'Gotham Rounded Light', sans-serif;
     text-transform:uppercase;
 	}
+h3 {
+    color: $red;
+	font:1.25em/1 'Gotham Rounded Light', sans-serif;
+    text-transform:uppercase;
+    margin-bottom: 0.5em;
+}
 p {
 	margin-bottom:1em;
 	&.note {
