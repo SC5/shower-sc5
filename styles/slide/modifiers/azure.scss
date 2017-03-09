@@ -6,8 +6,11 @@
 
     @include color-slide;
 
-	background-color:$azure;
+   background-color:$azure;
+
+    &:after {
+        color: #FFF;
+    }
 
 
-
-	}
+}
