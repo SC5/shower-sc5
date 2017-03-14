@@ -4,6 +4,8 @@
 
 Default theme for the [Shower](https://github.com/shower/shower/) presentation engine. Doesn’t include engine itself.
 
+[See it in action](https://sc5.github.io/shower-sc5/).
+
 ## Usage
 
 Get the Shower template where Ribbon is already included. Download the [template archive](http://shwr.me/shower.zip) or install the package:
@@ -32,8 +34,12 @@ If you want to adjust theme for your needs:
 
 1. Fork this repository and clone it to your local machine.
 2. Install dependencies: `npm install`.
-3. Start a local server with watcher: `npm run dev` or just `gulp` if you have it installed globally.
+3. Start a local server with watcher: `npm run dev`.
 4. Edit your files and see changes in the opened browser.
+
+You can deploy your changes to [https://sc5.github.io/shower-sc5/](https://sc5.github.io/shower-sc5/):
+
+    npm run deploy
 
 To take part in Ribbon development please read [contributing guidelines](CONTRIBUTING.md) first and [file an issue](https://github.com/shower/shower/issues/new) before sending any pull request.
 
