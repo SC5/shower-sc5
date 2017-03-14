@@ -64,6 +64,7 @@ gulp.task('styles', () => {
 gulp.task('deploy', function() {
   return gulp.src('./**/*')
     .pipe(ghPages({
-      remoteUrl: 'git@github.com:SC5/shower-sc5.git'
+      remoteUrl: 'git@github.com:SC5/shower-sc5.git',
+      force: true
     }));
 });
