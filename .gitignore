@@ -4,3 +4,4 @@ bower_components
 .sass-cache
 styles/*.map
 styles/*.css
+.publish
