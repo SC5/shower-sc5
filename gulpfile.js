@@ -7,6 +7,7 @@ const rename = require('gulp-rename');
 const replace = require('gulp-replace');
 const sass = require('gulp-sass');
 const sync = require('browser-sync').create();
+const ghPages = require('gulp-gh-pages');
 
 // Server
 
@@ -58,4 +59,11 @@ gulp.task('styles', () => {
 			.pipe(gulp.dest('styles'))
 			.pipe(sync.stream());
 	});
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./**/*')
+    .pipe(ghPages({
+      remoteUrl: 'git@github.com:SC5/shower-sc5.git'
+    }));
 });
