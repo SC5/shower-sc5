@@ -1,8 +1,8 @@
-# Ribbon theme for Shower [![Build Status](https://travis-ci.org/shower/ribbon.svg?branch=master)](https://travis-ci.org/shower/ribbon)
+# SC5 theme for Shower [![Build Status](https://travis-ci.org/shower/ribbon.svg?branch=master)](https://travis-ci.org/shower/ribbon)
 
-![Ribbon screen shot](pictures/canvas.png)
+![SC5 theme screen shot](pictures/canvas.png)
 
-Default theme for the [Shower](https://github.com/shower/shower/) presentation engine. Doesn’t include engine itself. [See it in action](http://shwr.me/shower/themes/ribbon/). Follow [@shower_me](https://twitter.com/shower_me) for support and updates, [file an issue](https://github.com/shower/shower/issues/new) if you have any.
+Default theme for the [Shower](https://github.com/shower/shower/) presentation engine. Doesn’t include engine itself.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Get the Shower template where Ribbon is already included. Download the [template
 
 If you want to install Ribbon separately you can download the [theme archive](http://shwr.me/ribbon.zip) or install the package:
 
-	npm install shower-ribbon
+	npm install shower-sc5
 
 ## Features
 
