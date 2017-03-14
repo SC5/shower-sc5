@@ -1,18 +1,18 @@
 {
-  "name": "shower-ribbon",
-  "description": "Ribbon theme for Shower HTML presentation engine",
-  "version": "2.0.10",
+  "name": "shower-sc5",
+  "description": "SC5 theme for Shower HTML presentation engine",
+  "version": "1.0.0",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
+    "name": "Varya Stepanova",
+    "url": "http://varya.me/"
   },
-  "homepage": "https://github.com/shower/ribbon",
+  "homepage": "https://github.com/sc5/shower-sc5",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/ribbon.git"
+    "url": "git://github.com/sc5/shower-sc5.git"
   },
   "bugs": {
-    "url": "http://github.com/shower/shower/issues"
+    "url": "http://github.com/sc5/shower-sc5/issues"
   },
   "license": "MIT",
   "keywords": [
