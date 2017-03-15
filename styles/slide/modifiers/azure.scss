@@ -4,13 +4,12 @@
 
 &--azure {
 
-    @include color-slide;
+   @include color-slide;
 
    background-color:$azure;
 
     &:after {
         color: #FFF;
     }
-
 
 }

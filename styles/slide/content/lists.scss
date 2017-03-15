@@ -10,14 +10,14 @@ ol, ul {
 	li {
 
 		page-break-inside:avoid;
-		text-indent:-2em;
+		text-indent:-0.5em;
 
 		// Marker
 
 		&::before {
 			display:inline-block;
 			width:2em;
-			color:lighten($grey, 25%);
+			color:$red;
 			text-align:right;
 			}
 
