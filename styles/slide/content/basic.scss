@@ -18,8 +18,7 @@ h3 {
         font:22px/1.4 'Lora', sans-serif;
         font-style: italic;
         text-transform:none;
-        position: absolute;
-        top: calc(70px - 1.25em);
+        margin-top: -1.25em;
     }
 }
 p {
