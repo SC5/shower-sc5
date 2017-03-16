@@ -8,25 +8,11 @@ Default theme for the [Shower](https://github.com/shower/shower/) presentation e
 
 ## Usage
 
-Get the Shower template where Ribbon is already included. Download the [template archive](http://shwr.me/shower.zip) or install the package:
-
-	npm install shower
-
-If you want to install Ribbon separately you can download the [theme archive](http://shwr.me/ribbon.zip) or install the package:
-
-	npm install shower-sc5
-
-## Features
-
-All theme’s features are demonstrated in the [index.html](index.html) file. Use it as a reference while building your presentation. See more detailed [features overview](https://github.com/shower/shower/blob/master/docs/features-en.md).
+Fork or copy&paste this repo. Don't forget `npm install`.
 
 ## Ratios
 
-Ribbon theme supports two slide ratios: wide 16×10 (default) and taller 4×3. To change the slide’s ratio include one of the pre-built `screen-16x10.css` or `screen-4x3.css` files in the `<head>` of your presentation.
-
-## PDF
-
-Ribbon could be exported to PDF by printing it from the list mode in Chrome or Opera browsers. See [printing documentation](https://github.com/shower/shower/blob/master/docs/printing-en.md) for more options.
+The theme supports two slide ratios: wide 16×10 (default) and taller 4×3. To change the slide’s ratio include one of the pre-built `screen-16x10.css` or `screen-4x3.css` files in the `<head>` of your presentation.
 
 ## Development
 
