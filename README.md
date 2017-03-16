@@ -2,8 +2,6 @@
 
 ![SC5 theme screen shot](pictures/canvas.png)
 
-Default theme for the [Shower](https://github.com/shower/shower/) presentation engine. Doesn’t include engine itself.
-
 [See it in action](https://sc5.github.io/shower-sc5/).
 
 ## Usage
