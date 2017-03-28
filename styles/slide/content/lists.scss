@@ -6,19 +6,27 @@ ol, ul {
 
 	margin-bottom:1em;
 	counter-reset:list;
+    line-height: 1.5em;
 
 	li {
 
 		page-break-inside:avoid;
-		text-indent:-0.5em;
+        padding-left: 1em;
+        position: relative;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
 
 		// Marker
 
 		&::before {
-			display:inline-block;
+            position: absolute;
+			display:block;
 			width:2em;
 			color:$red;
-			text-align:right;
+			text-align:left;
+            top: 0;
+            left: 0;
+            line-height: 2em;
 			}
 
 		}
@@ -33,7 +41,6 @@ ol, ul {
 // Markers
 
 ul > li::before {
-	padding-right:0.5em;
 	content:'•';
 	}
 ul > li:lang(ru)::before {
