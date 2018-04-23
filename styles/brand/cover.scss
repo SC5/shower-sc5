@@ -7,9 +7,13 @@
   text-align: center;
 
   &:before {
-  color: $white;
-    content: url('../images/logo/intergalactico.svg');
-    display: block;
+    content: '';
+    color: $white;
+    background-image: url('../images/logo/intergalactico.svg');
+    background-size: cover;
+    display: inline-block;
+    width: 307px;
+    height: 55px;
     margin: 0 auto;
   }
 
