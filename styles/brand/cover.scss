@@ -1,24 +1,26 @@
 @import 'colors';
 
 #cover {
-  background-color: $dark;
+  background-color: $white;
   background-image: none;
-  color: $white;
-  text-align: center;
+  color: $dark;
+  text-align: left;
 
-  &:before {
-    content: '';
-    color: $white;
-    background-image: url('../images/logo/intergalactico.svg');
-    background-size: cover;
-    display: inline-block;
-    width: 307px;
-    height: 55px;
-    margin: 0 auto;
-  }
+  background-image: url('../images/logo/intergalactico-black.png');
+  background-repeat: no-repeat;
+  background-position: 30px 50%;
+  background-size: 500px 175px;
+
+  padding-left: 40px;
 
   h2 {
-    color: $white;
-    margin-top: 50px;
+    color: $dark;
+    margin-top: calc(25% + 2em);
+    font-family: 'Graphik';
+  }
+
+  .author {
+    color: $pink;
+    font-family: 'Graphik';
   }
 }
