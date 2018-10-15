@@ -16,8 +16,8 @@
 	width:$width;
 	height:$height;
 	font-size:25px;
-    background-image: url(../images/logo/ig.svg);
-    background-size: 55px 45px;
+    background-image: url(../images/logo/ig-black.png);
+    background-size: 55px 55px;
     background-repeat: no-repeat;
     background-position: bottom 25px left 30px;
 	background-color:#FFF;
@@ -30,7 +30,7 @@
 		bottom:25px;
 		right:30px;
 		padding-top:15px;
-        font-family: 'Gotham Rounded Light', sans-serif;
+        font-family: 'FF Meta Serif', sans-serif;
         font-size: 20px;
 		color:$red;
 		counter-increment:slide;
@@ -57,7 +57,7 @@
 		'modifiers/shout',
 		'modifiers/print',
 		'modifiers/black',
-		'modifiers/red',
+		'modifiers/pink',
 		'modifiers/azure',
 		'modifiers/white',
 		'modifiers/full-image',

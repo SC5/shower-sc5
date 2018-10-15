@@ -1,21 +1,23 @@
+@import '../../brand/cover';
+
 // ------------------------------------------------------------------
 // Basic
 // ------------------------------------------------------------------
 
 h2 {
 	margin-bottom:34px;
-	color:$black;
-	font:50px/1 'Gotham Rounded Light', sans-serif;
+	color:$pink;
+	font:50px/1 'FF Meta Serif', sans-serif;
     text-transform:uppercase;
 	}
 h3 {
-    color: $red;
-	font:1.25em/1 'Gotham Rounded Light', sans-serif;
+    color: $blue;
+	font:1.25em/1 'FF Meta Serif', sans-serif;
     text-transform:uppercase;
     margin-bottom: 0.5em;
 
     &.subtitle {
-        font:22px/1.4 'Lora', sans-serif;
+        font:22px/1.4 'Graphik', sans-serif;
         font-style: italic;
         text-transform:none;
         margin-top: -1.25em;

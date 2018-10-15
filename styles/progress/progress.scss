@@ -14,7 +14,7 @@
 	width:0;
 	height:0;
 	box-sizing:content-box;
-	border:$size solid $azure;
+	border:$size solid $yellow;
 	border-right-color:transparent;
 	transition:width 0.2s linear;
 	clip:rect($size, $width + $size * 2, $size * 2, $size * 2);

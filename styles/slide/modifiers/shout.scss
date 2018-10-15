@@ -6,6 +6,10 @@
 
     @include cover;
 
+    .shower.full.full &:before {
+      display: none;
+    }
+
     blockquote {
         margin: 0 3em;
 

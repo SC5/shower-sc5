@@ -2,11 +2,11 @@
 // Red
 // ------------------------------------------------------------------
 
-&--red {
+&--pink {
 
     @include color-slide;
 
-	background-color:$red;
+	background-color:$pink;
 
     &:after {
         color: #FFF;
