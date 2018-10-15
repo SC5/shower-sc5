@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------
 
 a {
-	@include underline(currentColor, 0.09);
+	@include underline(currentColor, 0.05);
 	color:$blue;
 	}
 b, strong {

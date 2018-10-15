@@ -6,6 +6,10 @@
 
     @include cover;
 
+    .shower.full.full &:before {
+      display: none;
+    }
+
     h2 {
         margin-top: 0;
     }

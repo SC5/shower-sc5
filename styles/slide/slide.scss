@@ -32,7 +32,7 @@
 		padding-top:15px;
         font-family: 'FF Meta Serif', sans-serif;
         font-size: 20px;
-		color:$red;
+		color:$blue;
 		counter-increment:slide;
 		content:counter(slide);
 		text-align:center;
@@ -58,7 +58,7 @@
 		'modifiers/print',
 		'modifiers/black',
 		'modifiers/pink',
-		'modifiers/azure',
+		'modifiers/blue',
 		'modifiers/white',
 		'modifiers/full-image',
 		'modifiers/no-title';

@@ -23,9 +23,9 @@ table {
 		text-align:left;
 	    &:not(:last-of-type), &:last-child {
 	    	font-weight:bold;
-            background-color: $red;
+            background-color: $blue;
             color: #FFF;
-            font-family: 'Gotham Rounded Light', sans-serif;
+            font-family: 'Graphik', sans-serif;
             border-bottom: none;
 		}
     }

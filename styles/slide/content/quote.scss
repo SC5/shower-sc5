@@ -7,7 +7,7 @@
         color:$grey;
 		line-height:1;
 		font-size:8em;
-        font-family: 'Gotham Rounded Light', sans-serif;
+        font-family: 'Graphik', sans-serif;
         font-weight:bold;
 		content:'\201C';
         top: 50%;
@@ -16,7 +16,7 @@
 
 blockquote {
 
-    font-family: 'Gotham Rounded Light', sans-serif;
+    font-family: 'Graphik Light', sans-serif;
     position: relative;
 
 	&::before,
@@ -34,7 +34,7 @@ blockquote {
 
 	& + figcaption {
 		margin:-1em 0 1em;
-        font-family: 'Lora';
+        font-family: 'FF Meta Serif';
         font-size: 0.85em;
         text-align: right;
 	}

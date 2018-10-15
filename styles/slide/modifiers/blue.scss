@@ -2,11 +2,11 @@
 // Red
 // ------------------------------------------------------------------
 
-&--azure {
+&--blue {
 
    @include color-slide;
 
-   background-color:$azure;
+   background-color:$blue;
 
     &:after {
         color: #FFF;
